@@ -1,0 +1,32 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:padding="15dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="A: Performance test"
+        android:id="@+id/button"
+        android:layout_gravity="center" />
+
+    <Button
+        android:padding="15dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="B: Concurrency Test"
+        android:id="@+id/button2"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="filter LogCat with ADA TEST"
+        android:id="@+id/ada_performance"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
